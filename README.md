@@ -29,3 +29,8 @@ The **Calories Burn Predictor** is a web application built with Streamlit that p
 
 - Python 3.8 or higher
 - Use pip **install -r /requirements.txt** command to install the required packages
+
+---
+
+## Run the streamlit app
+- [CaloriesBurnPrediction-Streamlit](https://caloriesburnprediction.streamlit.app/)

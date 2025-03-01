@@ -5,8 +5,8 @@ import pickle
 
 FeaturesToBeScaled = ['Age','Weight','Height','Duration','Heart_Rate','Calories']
 
-model = pickle.load(open('Models\CaloriesBurnLrModel.pkl', 'rb'))
-scaler = pickle.load(open('Models\CaloriesBurnScaler.pkl', 'rb'))
+model = pickle.load(open('Models/CaloriesBurnLrModel.pkl', 'rb'))
+scaler = pickle.load(open('Models/CaloriesBurnScaler.pkl', 'rb'))
 st.title('Calories Burn Prediction Web App')
 st.write('This is a web app to predict the calories burned based on input features')
 st.write("Enter your details below to predict the calories burned during exercise")
